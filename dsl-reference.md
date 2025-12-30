@@ -156,7 +156,7 @@ Configures a workflow's runtime expression evaluation.
 
 | Name | Type | Required | Description|
 |:--|:---:|:---:|:---|
-| language | `string` | `yes` | The language used for writting runtime expressions.<br>*Defaults to `jq`.* |
+| language | `string` | `yes` | The language used for writing runtime expressions.<br>*Defaults to `jq`.* |
 | mode | `string` | `yes` | The runtime expression evaluation mode.<br>*Supported values are:*<br>- `strict`: requires all expressions to be enclosed within `${ }` for proper identification and evaluation.<br>- `loose`: evaluates any value provided. If the evaluation fails, it results in a string with the expression as its content.<br>*Defaults to `strict`.*
 
 #### Examples
